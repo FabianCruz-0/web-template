@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  position: fixed;
+  position: relative;
   overflow: auto;
   background-color: var(--color-37);
   background: url("img/header.jpg") top center no-repeat fixed;
@@ -13,15 +13,6 @@
 }
 .container{
   margin-top: 2.5vh;
-}
-table{
-  background-color: white;
-  color: black;
-  font-weight: bold;
-  border: 2px solid black;
-}
-td{
-  border: 2px solid black;
 }
 .mb-8{
 text-align: justify;
